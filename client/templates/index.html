@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CURRENCY-CONVERTER</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" />
+</head>
+
+<body>
+    <h1>CURRENCY-CONVERTER</h1>
+    <form action="#" method="POST">
+        <h2>Enter the currency code</h2>
+        <label><b>From  :</b>  USD</label><br>
+        <label><b>To  :  </b></label>
+        <input type="text" name="cry_code_to">
+        <h2>Enter the amount :</h2>
+        <input type="text" id="amount_i" name="amount">
+        <input type="submit">
+    </form>
+    <h2>Result :</h2>
+    <p>
+        <b>USD  :  {{amount}}</b><br>
+        <b>{{cry}}  :  {{rate_value}}</b>
+    </p>
+</body>
+
+</html>

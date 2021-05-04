@@ -1,0 +1,40 @@
+body {
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: hsl(64, 100%, 50%);
+    text-align: center;
+    text-shadow: 1cm;
+    margin-top: 2em;
+    text-shadow: 2px 4px 8px black;
+}
+
+h2 {
+    margin-left: 40%;
+    margin-right: 40%;
+    font-style: italic;
+    margin-top: 2em;
+}
+
+label {
+    margin-left: 40%;
+    font-size: 1.3em;
+    text-shadow: black;
+    font-style: italic;
+}
+
+#amount_i {
+    margin-left: 40%;
+}
+
+p {
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 1.4em;
+    font-style: italic;
+    color: darkblue;
+}
